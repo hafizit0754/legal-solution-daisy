@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal-Solution</title>
+    <!-- Tailwind and daisy CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- EB Garmond & Poopins fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700;800&family=Poppins:wght@400;600;800&display=swap"
+        rel="stylesheet">
+        <!-- Font Awsome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .garmond {
+            font-family: 'EB Garamond', serif;
+        }
+
+        .poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Nav section -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <a class="btn normal-case text-xl"><img src="./images/ask.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-xl">
+                        <li><a>Home</a></li>
+                        
+                        <li><a>Cases <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a>Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a>Contact Us<i class="fa-solid fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn">Button</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Provide section -->
+        <section class="max-w-screen-xl mx-auto my-10 py-5 px-8 md:px-16 lg:px-24">
+            <div class="hero " style="background-image: url(./images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
+                    <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <input type="text" placeholder="Search your services" class="input input-bordered" />
+                    <button class="btn btn-primary mt-5">Search</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- Legal Pratice Section -->
+        <section class="max-w-screen-xl mx-auto my-10 py-5 px-8 md:px-16 lg:px-24">
+            <div class="text-center">
+                <h1 class="text-5xl">The Legal Practice Area</h1>
+                <p class="text-base mt-5">There are many variations of passages of Lorem Ipsum available, but the majority <br>have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="grid py-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-6 mt-10 text-center  gap:20">
+                <!-- card -1 -->
+                <div class="card items-center">
+                    <figure><img src="./images/business.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-xl font-bold">Business Law</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="text-center text-xl font-bold">
+                        <i class="fa-solid fa-circle-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card -2 -->
+                <div class="card border-solid items-center">
+                    <figure><img src="./images/criminal.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-xl font-bold">Criminal Law</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="text-center text-xl font-bold">
+                        <i class="fa-solid fa-circle-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card -3 -->
+                <div class="card  items-center">
+                    <figure><img src="./images/child.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-xl font-bold">Child Law</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="text-center text-xl font-bold">
+                        <i class="fa-solid fa-circle-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card -4 -->
+                <div class="card mt-10 items-center">
+                    <figure><img src="./images/education.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-xl font-bold">Education Law</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="text-center text-xl font-bold">
+                        <i class="fa-solid fa-circle-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card -5 -->
+                <div class="card mt-10 items-center">
+                    <figure><img src="./images/divorce.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-xl font-bold">Devorce Law</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="text-center text-xl font-bold">
+                        <i class="fa-solid fa-circle-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card -6 -->
+                <div class="card mt-10 items-center">
+                    <figure><img src="./images/tax.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-center text-xl font-bold">TaxLaw</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="text-center text-xl font-bold">
+                        <i class="fa-solid fa-circle-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                
+                  </div>
+            
+
+        </section>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+
+</html>
